@@ -53,6 +53,7 @@ label{
 .container h1{
   text-align: center;
   text-transform:uppercase;
+  color:white;
   letter-spacing: 2px;
 }
 textarea,input,select{
