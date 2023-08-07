@@ -1,4 +1,8 @@
-
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
 body{
   background-color: grey;
   background-image: url("V.jpg");
@@ -9,7 +13,6 @@ body{
   /* background-color: indianred; */
   max-width: 70%;
   /* height:100px; */
-  border:1px solid blue;
   margin:0 auto;
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.21);
@@ -17,8 +20,10 @@ body{
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: transparent ;
+  border: transparent solid ;
   box-shadow: 5px 5px 10px rgba(1,1,1,.4);
+  /* margin-top: 10px; */
+  /* border:1px solid blue; */
 }
 textarea{
   resize: none;
@@ -103,7 +108,7 @@ button:hover{
   grid-column: 1/span 2;
 }
 .textarea_control textarea{
-  width:96%;
+  width:100%;
   
 }
 @media (max-width:456px){
