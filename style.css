@@ -108,3 +108,7 @@ button:hover{
   
 
 }
+h1::selection{
+  color:red;
+  background-color: blue;
+}
