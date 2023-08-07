@@ -57,8 +57,9 @@ label{
 
 .container h1{
   text-align: center;
+  font-family: sans-serif;
   text-transform:uppercase;
-  color:white;
+  color:black;
   letter-spacing: 2px;
 }
 textarea,input,select{
@@ -111,4 +112,15 @@ button:hover{
 h1::selection{
   color:red;
   background-color: blue;
+}
+h1{
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border:transparent solid black;
+  /* background-color: indianred; */
+  width: 600px;
+  border-radius: 20px;
 }
