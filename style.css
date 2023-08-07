@@ -113,7 +113,11 @@ button:hover{
   
 
 }
-h1,span::selection{
+h1::selection{
+  color:red;
+  background-color: blue;
+}
+span::selection{
   color:red;
   background-color: blue;
 }
