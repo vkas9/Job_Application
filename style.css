@@ -113,14 +113,7 @@ button:hover{
   
 
 }
-h1::selection{
-  color:red;
-  background-color: blue;
-}
-span::selection{
-  color:red;
-  background-color: blue;
-}
+
 h1{
   /* background: rgba(255, 255, 255, 0.21);
   border-radius: 16px;
