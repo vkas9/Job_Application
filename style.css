@@ -136,7 +136,7 @@ h1{
   /* background-color: indianred; */
   /* width: 600px; */
   border-radius: 20px;
-  background: linear-gradient(90deg,green,blue,red,yellow);
+  background: linear-gradient(100deg,orange,orange,orange,white,green,green,green);
   -webkit-background-clip:text;
   -webkit-text-fill-color: transparent;
   font-size: 40px;
