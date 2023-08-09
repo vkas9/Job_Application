@@ -3,6 +3,7 @@
   margin:0;
   box-sizing: border-box;
   scroll-behavior:smooth;
+  color:white;
 }
 body{
   background-color: grey;
@@ -126,7 +127,12 @@ button:hover{
       border-radius: 0px;
   }
 }
-
+@media screen and (min-width:810px){
+  .container{
+    margin:20px auto;
+    /* height:20vh; */
+  }
+}
 h1{
   /* background: rgba(255, 255, 255, 0.21);
   border-radius: 16px;
